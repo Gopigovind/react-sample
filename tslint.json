@@ -1,0 +1,18 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+	"jsx-self-close": false,
+    "object-literal-sort-keys": false,
+	"allowSyntheticDefaultImports": true,
+	"ordered-imports": false,
+	"jsx-no-lambda": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+	  "node_modules/**/*.d.ts",
+      "node_modules/**/*.ts",
+      "coverage/lcov-report/*.js"
+    ]
+  }
+}

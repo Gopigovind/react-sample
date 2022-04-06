@@ -1,0 +1,72 @@
+.header-main {
+	background: #2ac2e5;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1052;
+	height: 60px;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .header-main .header-left {
+	float: left;
+	height: 60px;
+	padding: 0 20px;
+	position: relative;
+	text-align: center;
+	width: 50px;
+	z-index: 1;
+	transition: all 0.2s ease-in-out;
+  }
+
+  .logo {
+	display: block;
+	line-height: 60px;
+  }
+  
+  .header-main .navbar-nav .badge {
+	position: absolute;
+	right: 7px;
+	top: 4px;
+  }
+
+
+  .page-title-box {
+	border-radius: 0;
+	margin-bottom: 0;
+	padding: 17px 20px;
+  }
+  
+  .page-title-box h3 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+  }
+  @media only screen and (max-width: 991px) {
+	.header-main .header-left {
+		position: absolute;
+		width: 100%;
+	  }
+	.header-main {
+		z-index: 1050;
+	  }
+	  #toggle_btn {
+		display: none;
+	  }
+  }
+  @media only screen and (max-width: 767px) {
+	.header-main {
+		z-index: 1040;
+	  }
+  }
+  @media only screen and (min-width: 991px) { 
+	#toggle_btn {
+		color: #fff;
+		float: left;
+		font-size: 26px;
+		line-height: 60px;
+		padding: 0 15px;
+	  }
+  }

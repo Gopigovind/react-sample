@@ -1,0 +1,146 @@
+.page-wrapper {
+	left: 0;
+	margin-left: 230px;
+	position: relative;
+	transition: all 0.2s ease-in-out;
+  }
+.page-wrapper label {
+	display: block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 100;
+    color: #808080;
+}
+  
+  .slide-nav-toggle .page-wrapper {
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+  }
+  
+  .page-wrapper .content {
+	padding-left: 0;
+  }
+.card-box {
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px 0 #e7e3e3;
+	margin-bottom: 10px;
+	padding: 10px;
+  }
+  
+  .card-title {
+	color: #333;
+	font-size: 18px;
+	font-weight: normal;
+	margin-bottom: 20px;
+  }
+  .time-table {
+	  padding: 10px 30px;
+  }
+  .time-table .card-box {
+	  box-shadow: none;
+  }
+  .time-table .small {
+	  color: #6c757d;
+  }
+  .time-table .sub-title {
+	  font-weight: 500;
+  }
+  .time-table .sub-profile {
+	border-radius: 50%;
+    background: #fff;
+	padding: 20px;
+  }
+  .time-table .page-title {
+	display: block;
+	color: #fff;
+  }
+  .time-table .page-title h4 {
+	margin:0;
+  }
+  .calendar-col-container {
+	  padding: 0;
+  }
+  .page-title {
+	display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+	padding: 20px 0px 10px 0;
+  }
+  .calendar-wrapper, .calendar-row-container {
+	  background-color: #51c08f;
+	  margin-left: 0px;
+  }
+  .calendar-row-container .css-1snvurg-MuiPickerStaticWrapper-root {
+	background-color: #51c08f;
+  }
+
+  .calendar-row-container .css-1snvurg-MuiPickerStaticWrapper-root .css-169iwlq-MuiCalendarPicker-root {
+	background-color: #def1e8;
+    border-radius: 6px;
+  }
+  .calendar-row-container .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root,
+  .calendar-row-container .css-195y93z-MuiButtonBase-root-MuiPickersDay-root,
+  .calendar-row-container .css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+	  background-color: transparent;
+	  border: none;
+  }
+  .calendar-row-container .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected,
+  .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root:focus.Mui-selected,
+  .calendar-row-container .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected:hover,
+  .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected,
+  .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root:focus.Mui-selected,
+  .css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected:hover {
+	  background-color: #51c08f;
+  }
+  .profile-wrapper {
+	  text-align: center;
+	  padding: 50px;
+  }
+  .profile-wrapper .profile-image {
+	border-radius: 50%;
+	background-color: #51c08f;
+	padding: 20px;
+  }
+  .profile-wrapper span.name {
+	font-weight: 400;
+    color: #808080;
+  }
+
+
+
+  .circle-icon {
+    background: #51c08f;
+    border-radius: 50%;
+	padding: 20px;
+	margin: 0;
+}
+.border-left-line{
+	border-right: 1px solid #6c757d47;
+}
+.border-bottom-line{
+	border-bottom: 1px solid #6c757d47;
+	padding: 15px;
+    margin: 0;
+}
+.border-bottom-line:last-child{
+	border-bottom: 0px solid #6c757d47;
+	padding: 15px;
+    margin: 0;
+}
+.h4-class{
+	font-size: revert;
+	font-weight: normal;
+	margin: 0;
+}
+.class-date{
+	font-size: smaller;
+	font-weight: normal;
+	margin: 0;
+}
+.class-reason{
+	font-size: revert;
+	font-weight: normal;
+}
